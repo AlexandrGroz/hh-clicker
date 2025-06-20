@@ -7,9 +7,6 @@ from helpers.check_bat import is_running_from_batch
 
 
 def start_clicking():
-    if is_running_from_batch():
-        os.system("cls")
-
     login()
     set_advanced_search()
 
