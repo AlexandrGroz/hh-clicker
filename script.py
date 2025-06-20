@@ -18,4 +18,7 @@ def start_clicking():
 
 
 if __name__ == "__main__":
+    if is_running_from_batch():
+        os.system("cls")
+
     start_clicking()
